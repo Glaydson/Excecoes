@@ -5,7 +5,7 @@ public class GerenciadorContas {
 	public static void main(String[] args) {
 		
 		
-		
+		// Cria novas contas
 		Conta c1 = new Conta(1, 1000);
 		Conta c2 = new Conta(2, 400);
 		Conta c3 = new Conta(3, 10);
