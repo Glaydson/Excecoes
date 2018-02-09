@@ -21,7 +21,7 @@ public class Conta {
 			this.saldo = saldo - valor;
 			System.out.println("Débito de " + valor + " efetuado na conta " + this.numero);
 		} else {
-			// Lançar uma exceção
+			// Lançar uma exceção própria
 			throw new SaldoInsuficienteException(this.numero);
 		}
 	}
